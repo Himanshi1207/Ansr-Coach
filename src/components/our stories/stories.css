@@ -1,0 +1,82 @@
+body{
+    color: black;
+}
+.programs{
+    background-color: rgb(240, 239, 239);
+}
+.boxcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-gap: 10px; */
+}
+.programs .boxcontainer .box{
+    margin: 0 50px;
+    background-color: #fff;
+    text-align:center;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 #c5c5c5;
+    position: relative;
+    margin-bottom: 15px;
+}
+.programs .boxcontainer .box .cardimage{
+    width: 100%;
+    height: 300px;
+    /* margin: 0 15px; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+.programs .boxcontainer .box .cardimage:after{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+.programs .boxcontainer .box:nth-child(1) .cardimage,
+.programs .boxcontainer .box:nth-child(1) .cardimage:after
+{
+    background-image: url("./images/img1.jpg");
+}
+.programs .boxcontainer .box:nth-child(2) .cardimage,
+.programs .boxcontainer .box:nth-child(2) .cardimage:after
+{
+    background-image: url("./images/img2.png");
+}
+.programs .boxcontainer .box:nth-child(3) .cardimage,
+.programs .boxcontainer .box:nth-child(3) .cardimage:after
+{
+    background-image: url("./images/img3.jpg");
+}
+.programs .boxcontainer .box:nth-child(4) .cardimage,
+.programs .boxcontainer .box:nth-child(4) .cardimage:after
+{
+    background-image: url("./images/img4.jpg");
+}
+.programs .boxcontainer .box:hover .cardimage:after{
+    top: 100%;
+}
+.programs .boxcontainer .box .programtitle{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    color:#444;
+}
+.programs .boxcontainer .box .donationcount{
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+    margin-top: 10px;
+}
+.programs .boxcontainer .box .donationcount span{
+    color:red;
+    
+}

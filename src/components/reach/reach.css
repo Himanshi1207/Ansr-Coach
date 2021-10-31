@@ -1,0 +1,35 @@
+#reach{
+    padding: 120px 0;
+}
+
+.counters{
+    height: 30vh;
+    background-color: #24262b;
+    display: flex;
+    justify-content: space-around;
+}
+.reach-title1, .reach-title2{
+    color: #24262b;
+    text-align: center;
+    font-size: 35px;
+    margin:30px 0;
+}
+.no{
+    color: red;
+}
+.reach1{
+    width: 25%;
+    border-right: 2px dotted white;
+    color: white;
+    /* background-color: green;/ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.count{
+    font-size: 30px;
+}
+.reach-content{
+    font-size: 35px;
+}

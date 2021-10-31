@@ -1,0 +1,18 @@
+.flex-box{
+    display: flex;
+    /* justify-content: space-around; */
+    /* padding: 50px 50px; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.counter{
+    font-size: 3.8rem;
+    margin: 0px 55px;    
+}
+
+.counter-title{
+    font-size: 2rem;
+    /* margin-top: 10px; */
+    margin-left: -35px;
+}

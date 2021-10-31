@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    color: rgb(247, 240, 240);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    position: fixed;
+    background-color:#24262b;
+    z-index: 100;
+    width: 100%;
+}
+.top{
+    display: flex;
+    height: 10vh;
+    justify-content:space-around;
+    align-items: center;
+}
+.logotext{
+    color: white;
+    font-size: 35px;
+}
+.nav-link{
+    width: 60%;
+}
+.nav-links{
+    display:flex;
+    list-style: none;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+.links{
+    cursor: pointer;
+}
+.links:hover{
+    color: red;
+}
+.nav-links li a{
+    color: rgb(247, 240, 240);
+    text-decoration: none;
+    font-size: 20px;
+}
+.button{
+    background-color: rgb(255, 5, 5);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+@media screen and (max-width: 800px){
+    .top{
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .logotext{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .line{
+        width:40px;
+        height:3px;
+        background-color: white;
+        margin:5px;
+    }
+    .nav-link{
+        width: 100%;
+    }
+    .nav-links.open{
+        clip-path: circle(1000px at 90% -15%);
+        -webkit-clip-path:circle(1000px at 90% -15%);
+    }
+    /* .nav-links li{
+        opacity: 0;
+    } */
+    .nav-links li a{
+        font-size: 25px;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5 ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5 ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5 ease 0.8s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.5 ease 0.10s;
+    }
+    li.fade{
+        opacity:1;
+    }
+}
