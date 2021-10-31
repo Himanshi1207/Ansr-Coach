@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Ansr-Coach/static/css/main.ffb3cee4.chunk.css",
+    "main.js": "/Ansr-Coach/static/js/main.677c2c90.chunk.js",
+    "main.js.map": "/Ansr-Coach/static/js/main.677c2c90.chunk.js.map",
+    "runtime-main.js": "/Ansr-Coach/static/js/runtime-main.8c15b50d.js",
+    "runtime-main.js.map": "/Ansr-Coach/static/js/runtime-main.8c15b50d.js.map",
+    "static/js/2.9aabb537.chunk.js": "/Ansr-Coach/static/js/2.9aabb537.chunk.js",
+    "static/js/2.9aabb537.chunk.js.map": "/Ansr-Coach/static/js/2.9aabb537.chunk.js.map",
+    "index.html": "/Ansr-Coach/index.html",
+    "static/css/main.ffb3cee4.chunk.css.map": "/Ansr-Coach/static/css/main.ffb3cee4.chunk.css.map",
+    "static/js/2.9aabb537.chunk.js.LICENSE.txt": "/Ansr-Coach/static/js/2.9aabb537.chunk.js.LICENSE.txt",
+    "static/media/amazon.23df6bd1.png": "/Ansr-Coach/static/media/amazon.23df6bd1.png",
+    "static/media/stories.css": "/Ansr-Coach/static/media/img4.f11ce15f.jpg",
+    "static/media/oracle.7cdae02a.png": "/Ansr-Coach/static/media/oracle.7cdae02a.png",
+    "static/media/tata.d051ec17.png": "/Ansr-Coach/static/media/tata.d051ec17.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c15b50d.js",
+    "static/js/2.9aabb537.chunk.js",
+    "static/css/main.ffb3cee4.chunk.css",
+    "static/js/main.677c2c90.chunk.js"
+  ]
+}
